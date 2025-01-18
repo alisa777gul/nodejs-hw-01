@@ -8,7 +8,7 @@ export const readContacts = async () => {
 
     return contacts;
   } catch (err) {
-    console.error('ПОмилка читання файлу', err);
+    console.error('Помилка читання файлу', err);
     throw err;
   }
 };
